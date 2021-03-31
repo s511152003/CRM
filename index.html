@@ -1,94 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             margin: 0px;
         }
-        nav{
+
+        nav {
             width: 100%;
             height: 80px;
             background-color: sienna;
-            display: flex;
-            position: relative;
+
         }
-        .menu{
+
+        .menu {
             width: 50px;
             height: 50px;
             background-color: skyblue;
-            position: absolute;
-            left: 15px;
-            top: calc(50% - 25px);
         }
-        .logo{
+
+        .logo {
             width: 50px;
             height: 50px;
-            background-color: slateblue;
-            position: absolute;
-            left: calc(50% - 25px);
-            top: calc(50% - 25px);
+            background-color: black;
         }
-        .list{
+
+        .list {
             display: none;
         }
 
-        main{
+        .main {
             width: 100%;
         }
 
-        .container{
+        .ban {
             width: 100%;
         }
 
-        .boxX{
+        .box1 {
             width: 100%;
             height: 200px;
             background-color: slateblue;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 72px;
         }
-        .boxY{
+
+        .box2 {
             width: 100%;
             height: 200px;
-            background-color: springgreen;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 72px;
+            background-color: seagreen;
         }
-        .boxZ{
+
+        .box3 {
             width: 100%;
             height: 200px;
             background-color: salmon;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 72px;
+        }
+        .box4 {
+            width: 100%;
+            height: 200px;
+            background-color: springgreen;
+        }
+        .box5 {
+            width: 100%;
+            height: 200px;
+            background-color: yellow;
+        }
+        .box6 {
+            width: 100%;
+            height: 200px;
+            background-color: green;
+        }
+        .box7 {
+            width: 100%;
+            height: 200px;
+            background-color: fuchsia;
         }
     </style>
 </head>
+
 <body>
     <nav>
         <div class="menu">
-            <div class="list">選項A</div>
-            <div class="list">選項B</div>
-            <div class="list">選項C</div>
+            <div class="list">關於我們</div>
+            <div class="list">解決方案</div>
+            <div class="list">成功案例</div>
+            <div class="list">轉型介紹</div>
+            <div class="list">聯絡我們</div>
         </div>
-        <img src="" class="logo" alt="">
+        <img src="" class="logo" alt="logo">
     </nav>
-    <main>
-        <div class="container">
-            <div class="boxX">X</div>
-            <div class="boxY">Y</div>
-            <div class="boxZ">Z</div>
+    <img src="" class="banner" alt="CRM">
+    <!-- 以上nav -->
 
-        </div>
+    <main>
+        <div class="ban">
+            <div class="box1">
+                <div class="title">Celnet Salesforce CRM 成功案例
+                    <img src="" class="up" alt="上排">
+                    <img src="" class="down" alt="下排"></div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="title">Celnet Salesforce CRM 專業服務
+                    <img src="" class="service" alt="服務">
+                </div>
+            </div>
+
+            <div class="box3">
+                <div class="title">為什麼選擇 Celnet
+                    <img src="" class="six" alt="六理由">
+                </div>               
+            </div>
+
+            <div class="box4">
+                <img src="" class="map" alt="遍佈率">
+            </div>
+
+            <div class="box5">
+                <div class="5up">
+                    <div class="title">雲喘品應用解決方案</div>
+                    <div class="title">Celnet提供專業雲端產品導入及客製化開發顧問服務，涵蓋銷售、行銷、 客戶服務與戰略分析等實際應用，
+                        擁有豐富的系統開發與實施經驗，協助企業優化內部管理流程，提升外部效益。
+                    </div>
+                <img src="" class="6p" alt="6圖">
+                </div>
+            </div>
+
+            <div class="box6">
+                <div class="6up">
+                    <div class="title">企業CRM導入解決方案
+                        <div class="title">適用銷售、服務、行銷與多用途的CRM平台，
+                            協助企業透過客戶關係管理，即時挖掘、掌握、進攻商機，提高關單效率，收益最大化。</div>
+                    </div>
+                </div>
+                    <img src="" class="33" alt="6圖">
+            </div>
+
+            <div class="box7">
+                <div class="head">
+                    <div class="title">提交表單</div>
+                </div>
+                <div class="ass">
+                    <div class="left">
+                        <div class="name"></div>
+                        <div class="add"></div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="foot">
+                    <div class="data"></div>
+                </div>
+                <div class="end">
+                    <div class="title">立即填表諮詢</div>
+                </div>
+            </div>
     </main>
+    <div class="footer">
+        <div class="footer_text">Faker© 2021</div>
+    </div>
 </body>
+
 </html>
+
+
